@@ -1,0 +1,716 @@
+<!--FRAME STARTS-->
+<!-- 2nd -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/nd"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/nd"
+ />
+
+
+<!-- drawable/nd.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="896dp"
+android:viewportWidth="414"
+android:viewportHeight="896"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V896H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V896H414V0"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
+
+<!--IPHONE TIME THINGY-->
+
+<!-- IPhone X (or newer) -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/iphone_x_or"
+android:layout_width="0dp"
+android:layout_height="47dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:clipToOutline="true"
+android:background="@drawable/iphone_x_or"
+ />
+
+
+<!-- drawable/iphone_x_or.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="47dp"
+android:viewportWidth="414"
+android:viewportHeight="47"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V47H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V47H414V0"
+android:fillColor="#F7FAFE"
+/>
+
+</group>
+
+</vector>
+<!--/iphone thingy ends-->
+
+<!-- Back -->
+<View
+android:id="@+id/back"
+android:layout_width="27dp"
+android:layout_height="36dp"
+android:layout_alignParentRight="true"
+android:layout_marginRight="378dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="25dp"
+android:background="@drawable/back"
+android:elevation="4dp"
+ />
+
+
+<!-- drawable/back.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="27dp"
+android:height="36dp"
+android:viewportWidth="27"
+android:viewportHeight="36"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H27V36H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Skip -->
+<TextView
+android:id="@+id/skip"
+android:layout_width="37dp"
+android:layout_height="14dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="367dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="33dp"
+android:text="@string/skip"
+android:textAppearance="@style/skip"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Aladin
+  Line height: 22sp
+-->
+<!-- styles.xml -->
+<style name="skip">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="skip">
+
+Skip
+</string>
+
+
+
+
+<!--progress bar
+
+Progress bar
+-->
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/progress_ba"
+android:layout_width="293dp"
+android:layout_height="2dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="60dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="43dp"
+android:background="@drawable/progress_ba"
+ />
+
+
+<!-- drawable/progress_ba.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="293dp"
+android:height="2dp"
+android:viewportWidth="293"
+android:viewportHeight="2"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H293V2H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V2H293V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+<!-- Tell Me More About Yourself -->
+<TextView
+android:id="@+id/tell_me_mor"
+android:layout_width="414dp"
+android:layout_height="92dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="120dp"
+android:text="@string/tell_me_mor"
+android:textAppearance="@style/tell_me_mor"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Raleway
+  Line height: 42sp
+-->
+<!-- styles.xml -->
+<style name="tell_me_mor">
+
+<item name="android:textSize">
+36sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+<item name="android:shadowColor">
+#80C4C2F5
+</item>
+
+<item name="android:shadowDx">
+0
+</item>
+
+<item name="android:shadowDy">
+4
+</item>
+
+<item name="android:shadowRadius">
+4
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="tell_me_mor">
+
+Tell Me More About Yourself
+</string>
+
+
+
+
+<!-- Rectangle 4 -->
+<View
+android:id="@+id/rectangle_4"
+android:layout_width="366dp"
+android:layout_height="86dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="24dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="271dp"
+android:background="@drawable/rectangle_4"
+android:elevation="13dp"
+ />
+
+
+<!-- drawable/rectangle_4.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="366dp"
+android:height="86dp"
+android:viewportWidth="366"
+android:viewportHeight="86"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M31 0H335C352.121 0 366 13.8792 366 31V55C366 72.1208 352.121 86 335 86H31C13.8792 86 0 72.1208 0 55V31C0 13.8792 13.8792 0 31 0Z"
+/>
+
+<path
+android:pathData="M0 0V86H366V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 5 -->
+<View
+android:id="@+id/rectangle_5"
+android:layout_width="366dp"
+android:layout_height="86dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="19dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="416dp"
+android:background="@drawable/rectangle_5"
+android:elevation="13dp"
+ />
+
+
+<!-- drawable/rectangle_5.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="366dp"
+android:height="86dp"
+android:viewportWidth="366"
+android:viewportHeight="86"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M31 0H335C352.121 0 366 13.8792 366 31V55C366 72.1208 352.121 86 335 86H31C13.8792 86 0 72.1208 0 55V31C0 13.8792 13.8792 0 31 0Z"
+/>
+
+<path
+android:pathData="M0 0V86H366V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 6 -->
+<View
+android:id="@+id/rectangle_6"
+android:layout_width="366dp"
+android:layout_height="86dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="19dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="575dp"
+android:background="@drawable/rectangle_6"
+android:elevation="13dp"
+ />
+
+
+<!-- drawable/rectangle_6.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="366dp"
+android:height="86dp"
+android:viewportWidth="366"
+android:viewportHeight="86"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M31 0H335C352.121 0 366 13.8792 366 31V55C366 72.1208 352.121 86 335 86H31C13.8792 86 0 72.1208 0 55V31C0 13.8792 13.8792 0 31 0Z"
+/>
+
+<path
+android:pathData="M0 0V86H366V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Gender -->
+<TextView
+android:id="@+id/gender"
+android:layout_width="112dp"
+android:layout_height="24dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="255dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="446dp"
+android:text="@string/gender"
+android:textAppearance="@style/gender"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Raleway
+  Line height: 28sp
+-->
+<!-- styles.xml -->
+<style name="gender">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="gender">
+
+Gender
+</string>
+
+
+
+
+<!-- Home Indicator -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/home_indica"
+android:layout_width="0dp"
+android:layout_height="34dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="838dp"
+android:background="@drawable/home_indica"
+ />
+
+
+<!-- drawable/home_indica.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="375dp"
+android:height="34dp"
+android:viewportWidth="375"
+android:viewportHeight="34"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H375V34H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- 22 -->
+<TextView
+android:id="@+id/some_id"
+android:layout_width="72dp"
+android:layout_height="44dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="42dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="291dp"
+android:text="@string/some_id"
+android:textAppearance="@style/some_id"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Raleway
+  Line height: 42sp
+-->
+<!-- styles.xml -->
+<style name="some_id">
+
+<item name="android:textSize">
+36sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="some_id">
+
+22
+</string>
+
+
+
+
+<!-- Your age -->
+<TextView
+android:id="@+id/your_age"
+android:layout_width="112dp"
+android:layout_height="24dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="255dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="301dp"
+android:text="@string/your_age"
+android:textAppearance="@style/your_age"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Raleway
+  Line height: 28sp
+-->
+<!-- styles.xml -->
+<style name="your_age">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="your_age">
+
+Your age
+</string>
+
+
+
+
+<!-- MALE -->
+<TextView
+android:id="@+id/male"
+android:layout_width="91dp"
+android:layout_height="33dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="32dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="442dp"
+android:text="@string/male"
+android:textAppearance="@style/male"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Amaranth
+  Line height: 29sp
+-->
+<!-- styles.xml -->
+<style name="male">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="male">
+
+MALE
+</string>
+
+
+
+
+<!-- Appearance=Default, Mode=Light, Type=3 Dots -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/appearance_"
+android:layout_width="375dp"
+android:layout_height="44dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="20dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="728dp"
+android:clipToOutline="true"
+android:background="@drawable/appearance_"
+ />
+
+
+<!-- drawable/appearance_.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="375dp"
+android:height="44dp"
+android:viewportWidth="375"
+android:viewportHeight="44"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H375V44H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V44H375V0"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- SELECT -->
+<TextView
+android:id="@+id/select"
+android:layout_width="101dp"
+android:layout_height="31dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="39dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="605dp"
+android:text="@string/select"
+android:textAppearance="@style/select"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: AppleGothic
+  Line height: 29sp
+-->
+<!-- styles.xml -->
+<style name="select">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#B3B3B3
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="select">
+
+SELECT
+</string>
+
+
+
+
+<!-- Weight -->
+<TextView
+android:id="@+id/weight"
+android:layout_width="105dp"
+android:layout_height="28dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="258dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="604dp"
+android:text="@string/weight"
+android:textAppearance="@style/weight"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Raleway
+  Line height: 28sp
+-->
+<!-- styles.xml -->
+<style name="weight">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="weight">
+
+Weight
+</string>
+
+
+
+
+<!-- cta1 -->
+<View
+android:id="@+id/cta1"
+android:layout_width="344dp"
+android:layout_height="56dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="39dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="788dp"
+android:background="#00000000"
+android:elevation="48dp"
+ />
+
