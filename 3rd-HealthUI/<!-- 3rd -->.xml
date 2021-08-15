@@ -1,0 +1,941 @@
+<!-- 3rd -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/rd"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/rd"
+ />
+
+
+<!-- drawable/rd.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="896dp"
+android:viewportWidth="414"
+android:viewportHeight="896"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V896H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V896H414V0"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
+
+<!-- IPhone X (or newer) -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/iphone_x_or"
+android:layout_width="0dp"
+android:layout_height="47dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:clipToOutline="true"
+android:background="@drawable/iphone_x_or"
+ />
+
+
+<!-- drawable/iphone_x_or.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="47dp"
+android:viewportWidth="414"
+android:viewportHeight="47"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V47H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V47H414V0"
+android:fillColor="#F7FAFE"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Mode=Light -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/mode_light"
+android:layout_width="293dp"
+android:layout_height="2dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="60dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="55dp"
+android:background="@drawable/mode_light"
+ />
+
+
+<!-- drawable/mode_light.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="293dp"
+android:height="2dp"
+android:viewportWidth="293"
+android:viewportHeight="2"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H293V2H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V2H293V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Back -->
+<View
+android:id="@+id/back"
+android:layout_width="27dp"
+android:layout_height="36dp"
+android:layout_alignParentRight="true"
+android:layout_marginRight="380dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="37dp"
+android:background="@drawable/back"
+android:elevation="4dp"
+ />
+
+
+<!-- drawable/back.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="27dp"
+android:height="36dp"
+android:viewportWidth="27"
+android:viewportHeight="36"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H27V36H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Skip -->
+<TextView
+android:id="@+id/skip"
+android:layout_width="37dp"
+android:layout_height="14dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="370dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="42dp"
+android:text="@string/skip"
+android:textAppearance="@style/skip"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Aladin
+  Line height: 22sp
+-->
+<!-- styles.xml -->
+<style name="skip">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="skip">
+
+Skip
+</string>
+
+
+
+
+<!-- What’s Your Main Goals?? -->
+<TextView
+android:id="@+id/what_s_your"
+android:layout_width="359dp"
+android:layout_height="76dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="27dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="120dp"
+android:text="@string/what_s_your"
+android:textAppearance="@style/what_s_your"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Asul
+  Line height: 46sp
+-->
+<!-- styles.xml -->
+<style name="what_s_your">
+
+<item name="android:textSize">
+38sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="what_s_your">
+
+What\u00E2\u0080\u0099s Your Main Goals??
+</string>
+
+
+
+
+<!-- Rectangle 7 -->
+<View
+android:id="@+id/rectangle_7"
+android:layout_width="194dp"
+android:layout_height="139dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="9dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="270dp"
+android:background="@drawable/rectangle_7"
+android:elevation="13dp"
+ />
+
+
+<!-- drawable/rectangle_7.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="194dp"
+android:height="139dp"
+android:viewportWidth="194"
+android:viewportHeight="139"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M19 0H175C185.493 0 194 8.50659 194 19V120C194 130.493 185.493 139 175 139H19C8.50659 139 0 130.493 0 120V19C0 8.50659 8.50659 0 19 0Z"
+/>
+
+<group
+android:translateX="1.027"
+android:translateY="1.609"
+android:pivotX="97"
+android:pivotY="69.5"
+android:scaleX="3.003"
+android:scaleY="3.281"
+android:rotation="-164.739"
+>
+
+<path
+android:pathData="M0 0V139H194V0"
+>
+
+<aapt:attr name="android:fillColor">
+
+<gradient
+android:type="linear"
+android:startX="97"
+android:startY="69.5"
+android:endX="145.5"
+android:endY="69.5"
+>
+
+<item
+android:color="#F8FAFE"
+android:offset="0.818"
+/>
+
+<item
+android:color="#CDCCF2"
+android:offset="1"
+/>
+
+</gradient>
+
+</aapt:attr>
+
+</path>
+
+</group>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 8 -->
+<View
+android:id="@+id/rectangle_8"
+android:layout_width="194dp"
+android:layout_height="139dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="220dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="270dp"
+android:background="@drawable/rectangle_8"
+android:elevation="13dp"
+ />
+
+
+<!-- drawable/rectangle_8.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="194dp"
+android:height="139dp"
+android:viewportWidth="194"
+android:viewportHeight="139"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M19 0H175C185.493 0 194 8.50659 194 19V120C194 130.493 185.493 139 175 139H19C8.50659 139 0 130.493 0 120V19C0 8.50659 8.50659 0 19 0Z"
+/>
+
+<group
+android:translateX="1.027"
+android:translateY="1.609"
+android:pivotX="97"
+android:pivotY="69.5"
+android:scaleX="3.003"
+android:scaleY="3.281"
+android:rotation="-164.739"
+>
+
+<path
+android:pathData="M0 0V139H194V0"
+>
+
+<aapt:attr name="android:fillColor">
+
+<gradient
+android:type="linear"
+android:startX="97"
+android:startY="69.5"
+android:endX="145.5"
+android:endY="69.5"
+>
+
+<item
+android:color="#F8FAFE"
+android:offset="0.818"
+/>
+
+<item
+android:color="#CDCCF2"
+android:offset="1"
+/>
+
+</gradient>
+
+</aapt:attr>
+
+</path>
+
+</group>
+
+</group>
+
+</vector>
+
+
+
+<!-- Be active -->
+<TextView
+android:id="@+id/be_active"
+android:layout_width="150dp"
+android:layout_height="35dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="242dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="348dp"
+android:text="@string/be_active"
+android:textAppearance="@style/be_active"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Raleway
+  Line height: 21sp
+-->
+<!-- styles.xml -->
+<style name="be_active">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="be_active">
+
+Be active
+</string>
+
+
+
+
+<!-- Get fit -->
+<TextView
+android:id="@+id/get_fit"
+android:layout_width="150dp"
+android:layout_height="35dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="31dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="348dp"
+android:text="@string/get_fit"
+android:textAppearance="@style/get_fit"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Raleway
+  Line height: 21sp
+-->
+<!-- styles.xml -->
+<style name="get_fit">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="get_fit">
+
+Get fit
+</string>
+
+
+
+
+<!-- Rectangle 9 -->
+<View
+android:id="@+id/rectangle_9"
+android:layout_width="194dp"
+android:layout_height="139dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="9dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="483dp"
+android:background="@drawable/rectangle_9"
+android:elevation="13dp"
+ />
+
+
+<!-- drawable/rectangle_9.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="194dp"
+android:height="139dp"
+android:viewportWidth="194"
+android:viewportHeight="139"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M19 0H175C185.493 0 194 8.50659 194 19V120C194 130.493 185.493 139 175 139H19C8.50659 139 0 130.493 0 120V19C0 8.50659 8.50659 0 19 0Z"
+/>
+
+<group
+android:translateX="1.027"
+android:translateY="1.609"
+android:pivotX="97"
+android:pivotY="69.5"
+android:scaleX="3.003"
+android:scaleY="3.281"
+android:rotation="-164.739"
+>
+
+<path
+android:pathData="M0 0V139H194V0"
+>
+
+<aapt:attr name="android:fillColor">
+
+<gradient
+android:type="linear"
+android:startX="97"
+android:startY="69.5"
+android:endX="145.5"
+android:endY="69.5"
+>
+
+<item
+android:color="#F8FAFE"
+android:offset="0.818"
+/>
+
+<item
+android:color="#FFB4B4"
+android:offset="1"
+/>
+
+</gradient>
+
+</aapt:attr>
+
+</path>
+
+</group>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 10 -->
+<View
+android:id="@+id/rectangle_1"
+android:layout_width="194dp"
+android:layout_height="139dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="220dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="483dp"
+android:background="@drawable/rectangle_1"
+android:elevation="13dp"
+ />
+
+
+<!-- drawable/rectangle_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="194dp"
+android:height="139dp"
+android:viewportWidth="194"
+android:viewportHeight="139"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M19 0H175C185.493 0 194 8.50659 194 19V120C194 130.493 185.493 139 175 139H19C8.50659 139 0 130.493 0 120V19C0 8.50659 8.50659 0 19 0Z"
+/>
+
+<group
+android:translateX="1.027"
+android:translateY="1.609"
+android:pivotX="97"
+android:pivotY="69.5"
+android:scaleX="3.003"
+android:scaleY="3.281"
+android:rotation="-164.739"
+>
+
+<path
+android:pathData="M0 0V139H194V0"
+>
+
+<aapt:attr name="android:fillColor">
+
+<gradient
+android:type="linear"
+android:startX="97"
+android:startY="69.5"
+android:endX="145.5"
+android:endY="69.5"
+>
+
+<item
+android:color="#F8FAFE"
+android:offset="0.818"
+/>
+
+<item
+android:color="#FFB4B4"
+android:offset="1"
+/>
+
+</gradient>
+
+</aapt:attr>
+
+</path>
+
+</group>
+
+</group>
+
+</vector>
+
+
+
+<!-- Dumbbell -->
+<View
+android:id="@+id/dumbbell"
+android:layout_width="60dp"
+android:layout_height="60dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="76dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="280dp"
+android:background="@drawable/dumbbell"
+ />
+
+
+<!-- drawable/dumbbell.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="60dp"
+android:height="60dp"
+android:viewportWidth="60"
+android:viewportHeight="60"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H60V60H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Heart with Pulse -->
+<View
+android:id="@+id/heart_with_"
+android:layout_width="60dp"
+android:layout_height="60dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="288dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="280dp"
+android:background="@drawable/heart_with_"
+ />
+
+
+<!-- drawable/heart_with_.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="60dp"
+android:height="60dp"
+android:viewportWidth="60"
+android:viewportHeight="60"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H60V60H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Stethoscope -->
+<View
+android:id="@+id/stethoscope"
+android:layout_width="60dp"
+android:layout_height="60dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="76dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="506dp"
+android:background="@drawable/stethoscope"
+ />
+
+
+<!-- drawable/stethoscope.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="60dp"
+android:height="60dp"
+android:viewportWidth="60"
+android:viewportHeight="60"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H60V60H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Stones -->
+<View
+android:id="@+id/stones"
+android:layout_width="60dp"
+android:layout_height="60dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="288dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="493dp"
+android:background="@drawable/stones"
+ />
+
+
+<!-- drawable/stones.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="60dp"
+android:height="60dp"
+android:viewportWidth="60"
+android:viewportHeight="60"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H60V60H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Be healthy -->
+<TextView
+android:id="@+id/be_healthy"
+android:layout_width="107dp"
+android:layout_height="22dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="52dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="574dp"
+android:text="@string/be_healthy"
+android:textAppearance="@style/be_healthy"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Raleway
+  Line height: 21sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="be_healthy">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="be_healthy">
+
+Be healthy
+</string>
+
+
+
+
+<!-- Find balance -->
+<TextView
+android:id="@+id/find_balanc"
+android:layout_width="114dp"
+android:layout_height="30dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="260dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="566dp"
+android:text="@string/find_balanc"
+android:textAppearance="@style/find_balanc"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Raleway
+  Line height: 21sp
+-->
+<!-- styles.xml -->
+<style name="find_balanc">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="find_balanc">
+
+Find balance
+</string>
+
+<!-- Appearance=Default, Mode=Light, Type=3 Dots -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/appearance_"
+android:layout_width="375dp"
+android:layout_height="44dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="19dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="731dp"
+android:clipToOutline="true"
+android:background="@drawable/appearance_"
+ />
+
+
+<!-- drawable/appearance_.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="375dp"
+android:height="44dp"
+android:viewportWidth="375"
+android:viewportHeight="44"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H375V44H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V44H375V0"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Home Indicator -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/home_indica"
+android:layout_width="0dp"
+android:layout_height="34dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="838dp"
+android:background="@drawable/home_indica"
+ />
+
+
+<!-- drawable/home_indica.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="375dp"
+android:height="34dp"
+android:viewportWidth="375"
+android:viewportHeight="34"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H375V34H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- cta1 -->
+<View
+android:id="@+id/cta1"
+android:layout_width="344dp"
+android:layout_height="56dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="39dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="788dp"
+android:background="#00000000"
+android:elevation="48dp"
+ />
