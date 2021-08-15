@@ -1,0 +1,206 @@
+<!-- FRAME STARTS -->
+<!-- logo -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/logo"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/logo"
+ />
+
+
+<!-- drawable/logo.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="896dp"
+android:viewportWidth="414"
+android:viewportHeight="896"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V896H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V896H414V0"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
+
+<!--FRAME ENDS-->
+
+<!--THE IPHONE TIME AND BATTERY THINGY STARTS-->
+
+<!-- IPhone X (or newer) -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/iphone_x_or"
+android:layout_width="0dp"
+android:layout_height="47dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:clipToOutline="true"
+android:background="@drawable/iphone_x_or"
+ />
+
+
+<!-- drawable/iphone_x_or.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="47dp"
+android:viewportWidth="414"
+android:viewportHeight="47"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V47H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V47H414V0"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
+<!--LOGO CONTAINER-->
+
+<!-- Black and White Collection 5 -->
+<View
+android:id="@+id/black_and_w"
+android:layout_width="127.13dp"
+android:layout_height="127.13dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="143dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="297dp"
+android:background="#00000000"
+android:elevation="4dp"
+ />
+<!--LOGO STARTS-->
+ <!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="127.13dp"
+android:layout_height="127.13dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="143dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="297dp"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="127.13dp"
+android:height="127.13dp"
+android:viewportWidth="127.13"
+android:viewportHeight="127.13"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M20 0H107.13C118.176 0 127.13 8.95431 127.13 20V107.13C127.13 118.176 118.176 127.13 107.13 127.13H20C8.95431 127.13 0 118.176 0 107.13V20C0 8.95431 8.95431 0 20 0Z"
+/>
+
+<path
+android:pathData="M0 0V127.13H127.13V0"
+android:fillColor="#847FF4"
+/>
+
+</group>
+
+</vector>
+
+<!-- Next page -->
+<View
+android:id="@+id/next_page"
+android:layout_width="90dp"
+android:layout_height="90dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="162dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="472dp"
+android:background="@drawable/next_page"
+android:elevation="4dp"
+ />
+
+
+<!-- drawable/next_page.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="90dp"
+android:height="90dp"
+android:viewportWidth="90"
+android:viewportHeight="90"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M45 0C69.8528 0 90 20.1472 90 45C90 69.8528 69.8528 90 45 90C20.1472 90 0 69.8528 0 45C0 20.1472 20.1472 0 45 0Z"
+/>
+
+<path
+android:pathData="M45 0C69.8528 0 90 20.1472 90 45C90 69.8528 69.8528 90 45 90C20.1472 90 0 69.8528 0 45C0 20.1472 20.1472 0 45 0Z"
+android:strokeWidth="2"
+android:strokeColor="#FFB4B4"
+/>
+
+</group>
+
+</vector>
+
+<!-- Home Indicator -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/home_indica"
+android:layout_width="0dp"
+android:layout_height="34dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="838dp"
+android:background="@drawable/home_indica"
+ />
+
+
+<!-- drawable/home_indica.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="375dp"
+android:height="34dp"
+android:viewportWidth="375"
+android:viewportHeight="34"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H375V34H0V0Z"
+/>
+
+</group>
+
+</vector>
