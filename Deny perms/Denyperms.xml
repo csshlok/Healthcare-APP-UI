@@ -1,0 +1,313 @@
+<!-- denyperms -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/denyperms"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/denyperms"
+ />
+
+
+<!-- drawable/denyperms.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="896dp"
+android:viewportWidth="414"
+android:viewportHeight="896"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V896H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V896H414V0"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
+<!-- Black and White Collection 5 -->
+<View
+android:id="@+id/black_and_w"
+android:layout_width="127.13dp"
+android:layout_height="127.13dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="143dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="297dp"
+android:background="#00000000"
+android:elevation="4dp"
+ />
+
+
+
+
+<!-- Random Symboles 1 -->
+<View
+android:id="@+id/random_symb"
+android:layout_width="131dp"
+android:layout_height="127dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="141dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="297dp"
+android:background="#00000000"
+ />
+
+
+
+
+<!-- A KS PRODUCT -->
+<TextView
+android:id="@+id/a_ks_produc"
+android:layout_width="231dp"
+android:layout_height="45dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="92dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="449dp"
+android:text="@string/a_ks_produc"
+android:textAppearance="@style/a_ks_produc"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Optima
+  Line height: 15sp
+-->
+<!-- styles.xml -->
+<style name="a_ks_produc">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="a_ks_produc">
+
+A KS PRODUCT
+</string>
+
+
+
+
+<!-- Next page -->
+<View
+android:id="@+id/next_page"
+android:layout_width="90dp"
+android:layout_height="90dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="162dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="472dp"
+android:background="@drawable/next_page"
+android:elevation="4dp"
+ />
+
+
+<!-- drawable/next_page.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="90dp"
+android:height="90dp"
+android:viewportWidth="90"
+android:viewportHeight="90"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M45 0C69.8528 0 90 20.1472 90 45C90 69.8528 69.8528 90 45 90C20.1472 90 0 69.8528 0 45C0 20.1472 20.1472 0 45 0Z"
+/>
+
+<path
+android:pathData="M45 0C69.8528 0 90 20.1472 90 45C90 69.8528 69.8528 90 45 90C20.1472 90 0 69.8528 0 45C0 20.1472 20.1472 0 45 0Z"
+android:strokeWidth="2"
+android:strokeColor="#FFB4B4"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- IPhone X (or newer) -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/iphone_x_or"
+android:layout_width="0dp"
+android:layout_height="47dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:clipToOutline="true"
+android:background="@drawable/iphone_x_or"
+ />
+
+
+<!-- drawable/iphone_x_or.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="47dp"
+android:viewportWidth="414"
+android:viewportHeight="47"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V47H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V47H414V0"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- It’s sad seeing you go -->
+<TextView
+android:id="@+id/it_s_sad_se"
+android:layout_width="359dp"
+android:layout_height="72dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="28dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="59dp"
+android:text="@string/it_s_sad_se"
+android:textAppearance="@style/it_s_sad_se"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Optima
+  Line height: 29sp
+-->
+<!-- styles.xml -->
+<style name="it_s_sad_se">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="it_s_sad_se">
+
+It\u00E2\u0080\u0099s sad seeing you go  
+</string>
+
+
+
+
+<!-- Crying -->
+<View
+android:id="@+id/crying"
+android:layout_width="90dp"
+android:layout_height="90dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="160dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="95dp"
+android:background="@drawable/crying"
+ />
+
+
+<!-- drawable/crying.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="90dp"
+android:height="90dp"
+android:viewportWidth="90"
+android:viewportHeight="90"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H90V90H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- button_back -->
+<View
+android:id="@+id/button_back"
+android:layout_width="56dp"
+android:layout_height="56dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="6dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="39dp"
+android:background="#00000000"
+android:elevation="48dp"
+ />
+
+ <!-- Home Indicator -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/home_indica"
+android:layout_width="0dp"
+android:layout_height="34dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="838dp"
+android:background="@drawable/home_indica"
+ />
+
+
+<!-- drawable/home_indica.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="375dp"
+android:height="34dp"
+android:viewportWidth="375"
+android:viewportHeight="34"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H375V34H0V0Z"
+/>
+
+</group>
+
+</vector>
