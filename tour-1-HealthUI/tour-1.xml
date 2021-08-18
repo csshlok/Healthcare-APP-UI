@@ -1,0 +1,214 @@
+<!-- tour 1 -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/tour_1"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/tour_1"
+ />
+
+
+<!-- drawable/tour_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="896dp"
+android:viewportWidth="414"
+android:viewportHeight="896"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V896H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V896H414V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+<!-- Home Indicator -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/home_indica"
+android:layout_width="0dp"
+android:layout_height="38dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="834dp"
+android:background="@drawable/home_indica"
+ />
+
+
+<!-- drawable/home_indica.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="38dp"
+android:viewportWidth="414"
+android:viewportHeight="38"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V38H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- IPhone X (or newer) -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/iphone_x_or"
+android:layout_width="0dp"
+android:layout_height="49dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:clipToOutline="true"
+android:background="@drawable/iphone_x_or"
+ />
+
+
+<!-- drawable/iphone_x_or.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="49dp"
+android:viewportWidth="414"
+android:viewportHeight="49"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V49H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V49H414V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Lifesavers Hand -->
+<View
+android:id="@+id/lifesavers_"
+android:layout_width="378dp"
+android:layout_height="387dp"
+android:layout_centerHorizontal="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="76dp"
+android:background="@drawable/lifesavers_"
+ />
+
+
+<!-- drawable/lifesavers_.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="378dp"
+android:height="387dp"
+android:viewportWidth="378"
+android:viewportHeight="387"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H378V387H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Text -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/text"
+android:layout_width="0dp"
+android:layout_height="197dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentRight="true"
+android:layout_marginRight="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="501dp"
+android:background="@drawable/text"
+ />
+
+
+<!-- drawable/text.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="378dp"
+android:height="197dp"
+android:viewportWidth="378"
+android:viewportHeight="197"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H378V197H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- button1 -->
+<View
+android:id="@+id/button1"
+android:layout_width="144dp"
+android:layout_height="56dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="135dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="736dp"
+android:background="#00000000"
+android:elevation="48dp"
+ />
+
+
+
+
+<!-- button_next -->
+<View
+android:id="@+id/button_next"
+android:layout_width="56dp"
+android:layout_height="56dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="182dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="797dp"
+android:background="#00000000"
+android:elevation="48dp"
+ />
