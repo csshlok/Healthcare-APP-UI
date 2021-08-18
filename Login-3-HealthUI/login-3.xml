@@ -1,0 +1,230 @@
+<!-- login2 -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/login2"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/login2"
+ />
+
+
+<!-- drawable/login2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="896dp"
+android:viewportWidth="414"
+android:viewportHeight="896"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V896H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V896H414V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+<!-- Login Data -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/login_data"
+android:layout_width="0dp"
+android:layout_height="690dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="3dp"
+android:layout_alignParentRight="true"
+android:layout_marginRight="4dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-138dp"
+android:background="@drawable/login_data"
+ />
+
+
+<!-- drawable/login_data.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="407dp"
+android:height="690dp"
+android:viewportWidth="407"
+android:viewportHeight="690"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H407V690H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Home Indicator -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/home_indica"
+android:layout_width="414dp"
+android:layout_height="37dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="835dp"
+android:background="@drawable/home_indica"
+ />
+
+
+<!-- drawable/home_indica.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="37dp"
+android:viewportWidth="414"
+android:viewportHeight="37"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V37H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- IPhone X (or newer) -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/iphone_x_or"
+android:layout_width="0dp"
+android:layout_height="49dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:clipToOutline="true"
+android:background="@drawable/iphone_x_or"
+ />
+
+
+<!-- drawable/iphone_x_or.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="49dp"
+android:viewportWidth="414"
+android:viewportHeight="49"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V49H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V49H414V0"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Keyboard -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/keyboard"
+android:layout_width="0dp"
+android:layout_height="320dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="552dp"
+android:background="@drawable/keyboard"
+ />
+
+
+<!-- drawable/keyboard.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="320dp"
+android:viewportWidth="414"
+android:viewportHeight="320"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V320H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V320H414V0"
+android:fillColor="#B7D2FC"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Title Bar -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/title_bar"
+android:layout_width="0dp"
+android:layout_height="38dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentBottom="true"
+android:layout_marginBottom="761dp"
+android:background="@drawable/title_bar"
+ />
+
+
+<!-- drawable/title_bar.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="416dp"
+android:height="39dp"
+android:viewportWidth="416"
+android:viewportHeight="39"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5H415.5V38.5H0.5V0.5Z"
+/>
+
+<path
+android:pathData="M0.5 0.5V38.5H415.5V0.5"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
