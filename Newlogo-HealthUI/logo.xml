@@ -1,0 +1,224 @@
+<!-- logo -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/logo"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/logo"
+ />
+
+
+<!-- drawable/logo.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="896dp"
+android:viewportWidth="414"
+android:viewportHeight="896"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V896H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V896H414V0"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
+
+<!-- A KS PRODUCT -->
+<TextView
+android:id="@+id/a_ks_produc"
+android:layout_width="231dp"
+android:layout_height="45dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="92dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="449dp"
+android:text="@string/a_ks_produc"
+android:textAppearance="@style/a_ks_produc"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Optima
+  Line height: 15sp
+-->
+<!-- styles.xml -->
+<style name="a_ks_produc">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="a_ks_produc">
+
+A KS PRODUCT
+</string>
+
+
+
+
+<!-- Next page -->
+<View
+android:id="@+id/next_page"
+android:layout_width="90dp"
+android:layout_height="90dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="162dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="472dp"
+android:background="@drawable/next_page"
+android:elevation="4dp"
+ />
+
+
+<!-- drawable/next_page.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="90dp"
+android:height="90dp"
+android:viewportWidth="90"
+android:viewportHeight="90"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M45 0C69.8528 0 90 20.1472 90 45C90 69.8528 69.8528 90 45 90C20.1472 90 0 69.8528 0 45C0 20.1472 20.1472 0 45 0Z"
+/>
+
+<path
+android:pathData="M45 0C69.8528 0 90 20.1472 90 45C90 69.8528 69.8528 90 45 90C20.1472 90 0 69.8528 0 45C0 20.1472 20.1472 0 45 0Z"
+android:strokeWidth="2"
+android:strokeColor="#FFB4B4"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Home Indicator -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/home_indica"
+android:layout_width="0dp"
+android:layout_height="34dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="838dp"
+android:background="@drawable/home_indica"
+ />
+
+
+<!-- drawable/home_indica.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="375dp"
+android:height="34dp"
+android:viewportWidth="375"
+android:viewportHeight="34"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H375V34H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- IPhone X (or newer) -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/iphone_x_or"
+android:layout_width="0dp"
+android:layout_height="47dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:clipToOutline="true"
+android:background="@drawable/iphone_x_or"
+ />
+
+
+<!-- drawable/iphone_x_or.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="47dp"
+android:viewportWidth="414"
+android:viewportHeight="47"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V47H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V47H414V0"
+android:fillColor="#F8FAFE"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Black and White Collection 5 -->
+<View
+android:id="@+id/black_and_w"
+android:layout_width="176.62dp"
+android:layout_height="175dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="118.78dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="249dp"
+android:background="#00000000"
+android:elevation="4dp"
+ />
+
+
+
+
+<!-- Random Symboles 1 -->
+<View
+android:id="@+id/random_symb"
+android:layout_width="182dp"
+android:layout_height="174.82dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="116dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="249dp"
+android:background="#00000000"
+ />
