@@ -7,4 +7,4 @@ Cause I'm really lazy, lol
 I'll upload the detailed (including layers,components and assets) from The Second-Homepage's code
 and I'll upload a seperate Xml file of all those components (including text and assets too) that are used in almost every frame, like the home indicator or the iphone time thingy (cries in android)
 
-![]https://github.com/Azazelcodes/Healthcare-APP-UI/blob/main/Pixel%20True%20Mockup.png
+[]https://github.com/Azazelcodes/Healthcare-APP-UI/blob/main/Pixel%20True%20Mockup.png
