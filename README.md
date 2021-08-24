@@ -12,6 +12,6 @@ and I'll upload a seperate Xml file of all those components (including text and 
 
 Adding the second mockup: This is a special one cause I tried to copy the cred synth that I like very much while tweaking a few things to fit the payment gateway for the app as the app is not only a fitness/health app it also an app where you can buy things
 
-I'll write the main idea as soon as I upload this project on behance and have my website up
+I'll write the main idea as soon as I upload this project on behance and have my website up (which might take a lot of time as I have studies and other projects so the deadline I've set for me is 1 september after 2nd sep I'll edit the readme for the main idea and post the flow and detailed explaination of the app)
 
 ![](https://github.com/Azazelcodes/Healthcare-APP-UI/blob/main/cred%20mockup.png)
