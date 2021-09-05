@@ -1,0 +1,96 @@
+<!-- nav_bar -->
+<View
+android:id="@+id/nav_bar"
+android:layout_width="375dp"
+android:layout_height="91dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="16dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="745dp"
+android:background="#00000000"
+/>
+<!-- Rectangle -->
+<View
+android:id="@+id/rectangle"
+android:layout_width="375dp"
+android:layout_height="91dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="16dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="745dp"
+android:background="@drawable/rectangle"
+android:elevation="40dp"
+ />
+
+
+<!-- drawable/rectangle.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="375dp"
+android:height="91dp"
+android:viewportWidth="375"
+android:viewportHeight="91"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M24 0H351C364.255 0 375 10.7452 375 24V67C375 80.2548 364.255 91 351 91H24C10.7452 91 0 80.2548 0 67V24C0 10.7452 10.7452 0 24 0Z"
+/>
+
+<path
+android:pathData="M0 0V91H375V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Home -->
+<View
+android:id="@+id/home"
+android:layout_width="19dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="64dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="781dp"
+android:background="#00000000"
+android:elevation="30dp"
+ />
+
+
+
+
+<!-- Category -->
+<View
+android:id="@+id/category"
+android:layout_width="20dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="194dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="781dp"
+android:background="#00000000"
+android:alpha="0.2"
+ />
+
+
+
+
+<!-- Profile -->
+<View
+android:id="@+id/profile"
+android:layout_width="18dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="325dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="781dp"
+android:background="#00000000"
+android:alpha="0.2"
+/>
