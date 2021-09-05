@@ -25,3 +25,5 @@ I've redeisgned 2 of the pages currently cause I felt that the previous OG desig
 I'll upload the redesigned frame's code and png image with prefix- Redeg 
 
 I also need to make a workflow so that people can understand better , F
+
+I've realised that coding the entire frames are gonna take time which I don't have, so I'll just code and add the common assests that are being used such as the Time part/Iphone thingy and the nav bar
