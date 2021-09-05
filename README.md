@@ -23,3 +23,5 @@ Lol it's 5th of sep and I still haven't finished this project, well in my defens
 
 I've redeisgned 2 of the pages currently cause I felt that the previous OG design was a bit idiotic and felt as the user would vomit after seeing it so..
 I'll upload the redesigned frame's code and png image with prefix- Redeg 
+
+I also need to make a workflow so that people can understand better , F
