@@ -1042,3 +1042,175 @@ android:pathData="M0 0H47V44H0V0Z"
 </group>
 
 </vector>
+
+<!-- nav_bar -->
+<View
+android:id="@+id/nav_bar"
+android:layout_width="375dp"
+android:layout_height="91dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="17dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="728dp"
+android:background="#00000000"
+ />
+
+ <!-- Rectangle -->
+<View
+android:id="@+id/rectangle"
+android:layout_width="375dp"
+android:layout_height="91dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="17dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="728dp"
+android:background="@drawable/rectangle"
+android:elevation="40dp"
+ />
+
+
+<!-- drawable/rectangle.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="375dp"
+android:height="91dp"
+android:viewportWidth="375"
+android:viewportHeight="91"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M24 0H351C364.255 0 375 10.7452 375 24V67C375 80.2548 364.255 91 351 91H24C10.7452 91 0 80.2548 0 67V24C0 10.7452 10.7452 0 24 0Z"
+/>
+
+<path
+android:pathData="M0 0V91H375V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Home -->
+<View
+android:id="@+id/home"
+android:layout_width="19dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="65dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="764dp"
+android:background="#00000000"
+android:elevation="30dp"
+ />
+
+
+
+
+<!-- Profile -->
+<View
+android:id="@+id/profile"
+android:layout_width="18dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="326dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="764dp"
+android:background="#00000000"
+android:alpha="0.2"
+ />
+
+ <!-- button1 -->
+<View
+android:id="@+id/button1"
+android:layout_width="56dp"
+android:layout_height="56dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="177dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="746dp"
+android:background="@drawable/button1"
+android:elevation="30dp"
+ />
+
+
+<!-- drawable/button1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="56dp"
+android:height="56dp"
+android:viewportWidth="56"
+android:viewportHeight="56"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M28 0C43.464 0 56 12.536 56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28C0 12.536 12.536 0 28 0Z"
+/>
+
+<group
+android:translateX="1"
+android:translateY="0"
+android:pivotX="28"
+android:pivotY="28"
+android:scaleX="2.828"
+android:scaleY="2.828"
+android:rotation="135"
+>
+
+<path
+android:pathData="M0 0V56H56V0"
+>
+
+<aapt:attr name="android:fillColor">
+
+<gradient
+android:type="linear"
+android:startX="14"
+android:startY="28"
+android:endX="42"
+android:endY="28"
+>
+
+<item
+android:color="#8743FF"
+android:offset="0"
+/>
+
+<item
+android:color="#4136F1"
+android:offset="1"
+/>
+
+</gradient>
+
+</aapt:attr>
+
+</path>
+
+</group>
+
+</group>
+
+</vector>
+
+
+
+<!-- arrow-right -->
+<View
+android:id="@+id/arrow_right"
+android:layout_width="6dp"
+android:layout_height="12dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="208dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="768dp"
+android:background="#00000000"
+ />
