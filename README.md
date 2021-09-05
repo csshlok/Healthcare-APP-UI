@@ -19,4 +19,4 @@ I'll also make repository for the code of my website as soon as it's hosted!
 
 ![](https://github.com/Azazelcodes/Healthcare-APP-UI/blob/main/cred%20mockup.png)
 
-Lol it's 5th of sep and I still haven't finished this project
+Lol it's 5th of sep and I still haven't finished this project, well in my defense I had work and school has started mid terms so can't do really much about it
