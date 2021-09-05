@@ -1,5 +1,6 @@
 <!-- nav_bar -->
 <View
+xmlns:android="http://schemas.android.com/apk/res/android"
 android:id="@+id/nav_bar"
 android:layout_width="375dp"
 android:layout_height="91dp"
@@ -11,6 +12,7 @@ android:background="#00000000"
 />
 <!-- Rectangle -->
 <View
+xmlns:android="http://schemas.android.com/apk/res/android"
 android:id="@+id/rectangle"
 android:layout_width="375dp"
 android:layout_height="91dp"
