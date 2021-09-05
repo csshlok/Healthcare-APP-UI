@@ -20,3 +20,4 @@ I'll also make repository for the code of my website as soon as it's hosted!
 ![](https://github.com/Azazelcodes/Healthcare-APP-UI/blob/main/cred%20mockup.png)
 
 Lol it's 5th of sep and I still haven't finished this project, well in my defense I had work and school has started mid terms so can't do really much about it
+I've redeisgned 2 of the pages currently cause I felt that the previous OG design was a bit idiotic and felt as the user would vomit after seeing it so..
