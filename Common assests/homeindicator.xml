@@ -1,0 +1,36 @@
+<!-- Home Indicator -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/home_indica"
+android:layout_width="0dp"
+android:layout_height="38dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="834dp"
+android:background="@drawable/home_indica"
+ />
+
+ <!-- drawable/home_indica.xml -->
+ <vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="38dp"
+android:viewportWidth="414"
+android:viewportHeight="38"
+>
+<group>
+
+<clip-path
+android:pathData="M0 0H414V38H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V38H414V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
