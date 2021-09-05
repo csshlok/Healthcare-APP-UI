@@ -34,3 +34,38 @@ android:fillColor="#F8FAFE"
 </group>
 
 </vector>
+
+<!-- IPhone X (or newer) -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/iphone_x_or"
+android:layout_width="0dp"
+android:layout_height="49dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:clipToOutline="true"
+android:background="@drawable/iphone_x_or"
+ />
+
+
+<!-- drawable/iphone_x_or.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="49dp"
+android:viewportWidth="414"
+android:viewportHeight="49"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V49H0V0Z"
+/>
+
+</group>
+
+</vector>
